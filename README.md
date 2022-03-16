@@ -1,4 +1,4 @@
-# luxury-hotels-tarragona
+# hotels-spa-tarragona
 Website showing different luxury hotels in Tarragona...
 
 ## Motivació

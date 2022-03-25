@@ -2,7 +2,7 @@
 Website showing different hotels with spa in Tarragona...
 
 ## Motivació
-Tarragona és una província on el turisme pren gran importància. Compta amb diferents paisatges i característiques que s'ajusten a tots els gustos, des de platja, muntanya fins a ciutat, entre d'altres. Molts turistes o fins i tot, residents, busquen la tranquil·litat en els seus hotels, i moltes vegades la troben en els spa. Amb aquesta pàgina web es vol mostrar tots els hotels de la província de Tarragona que tenen instal·lacions d'spa. D'aquesta manera, els usuaris que desitgin allotjar-se a un hotel d'aquestes característiques, puguin fer una recerca ràpida i fàcil. 
+Tarragona és una província on el turisme pren gran importància. Compta amb diferents paisatges i característiques que s'ajusten a tots els gustos, des de platja, muntanya fins a ciutat, entre d'altres. Molts turistes o, fins i tot, residents, busquen la tranquil·litat en els seus hotels, i moltes vegades la troben en l'spa. Amb aquesta pàgina web es vol mostrar tots els hotels de la província de Tarragona que tenen instal·lacions d'spa. D'aquesta manera, els usuaris que desitgin allotjar-se a un hotel d'aquestes característiques, puguin fer una recerca ràpida i fàcil. 
 Es pretén donar un preu inicial (a partir de X €) i la ubicació de cada hotel, així com algunes característiques d'aquests. 
 
 

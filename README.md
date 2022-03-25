@@ -7,7 +7,7 @@ Es pretén donar un preu inicial (a partir de X €) i la ubicació de cada hote
 
 
 ## Estructura de la web
-Encara per definir amb més concreció.
+Encara per definir amb més concreció. El proposit és afegir l'enllaç de la pàgina web de cada hotel per tal de que l'usuari pugui fer la reserva amb un sol click. 
 
 ## Cartografia qgis2web
 En aquest apartat es mostrarà la cartografia elaborada mitjançant QGIS, fent servir el plugin qgis2web. Es pretén representar en un mapa la ubicació de cada hotel. Actualment, la cartografia encara està en procés. 

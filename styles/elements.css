@@ -400,9 +400,9 @@ section
 }
 .logo a > div:last-child
 {
-	font-size: 12px;
+	font-size: 30px;
 	font-weight: 500;
-	color: rgba(255,255,255,0.54);
+	color: #FFFFFF;
 	line-height: 0.75;
 	margin-top: 11px;
 }

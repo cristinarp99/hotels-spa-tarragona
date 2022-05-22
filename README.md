@@ -1,17 +1,24 @@
 # hotels-spa-tarragona
-Website showing different hotels with spa in Tarragona...
+Aquesta pàgina web mostra els hotels amb spa a la província de Tarragona. 
 
 ## Motivació
-Tarragona és una província on el turisme pren gran importància. Compta amb diferents paisatges i característiques que s'ajusten a tots els gustos, des de platja, muntanya fins a ciutat, entre d'altres. Molts turistes o, fins i tot, residents, busquen la tranquil·litat en els seus hotels, i moltes vegades la troben en l'spa. Amb aquesta pàgina web es vol mostrar tots els hotels de la província de Tarragona que tenen instal·lacions d'spa. D'aquesta manera, els usuaris que desitgin allotjar-se a un hotel d'aquestes característiques, puguin fer una recerca ràpida i fàcil. 
-Es pretén donar un preu inicial (a partir de X €) i la ubicació de cada hotel, així com algunes característiques d'aquests. 
-
+La pàgina web ha estat creada per tal de facilitar als usuaris que desitgin passar unes vacacnces a la província de Tarragona i vulguin allotjar-se a algun hotel que disposi d'instal·lacions d'spa.
 
 ## Estructura de la web
-Encara per definir amb més concreció. El proposit és afegir l'enllaç de la pàgina web de cada hotel per tal de que l'usuari pugui fer la reserva amb un sol click. 
+La web compta de 5 pàgines: Home, Hotels, Locations, Tarragona, Contact. 
+- Home és la pàgina inicial de la web, és on apareix la informació més bàsica sobre aquesta.
+- Locations compta amb un mapa interactiu creat amb el pugin web2qgis i la llibreria Leaflet. Surt la distribució dels diferents hotels en forma de punts vermells. 
+- A Hotels apareix un llistat amb tots els hotels de la província que disposen d'spa, així com la seva ubicació (si es fa click a l'adreça t'envia al Google Maps), i la pàgina web oficial de l'hotel corresponent (fent click a l'enllaç et redirigeix a la web oficial). 
+- La pàgina de Tarragona dona breu informació sobre aquesta província, des d'un punt més enfocat cap al turista o visitant. 
+- Contact és on apareix la informació de contacte de la website, així com uns formularis per rebre informació o notificacions d'ofertes (inscripció a la Newsletter)
 
+La web ha estat creada amb l'ajuda d'una plantilla extreta de Bootstrap i la plataforma Colorlib.
+La llicència és GNU General Public License v3.0.
+També compta amb web responsive. 
+ 
 ## Cartografia qgis2web
-En aquest apartat es mostrarà la cartografia elaborada mitjançant QGIS, fent servir el plugin qgis2web. Es pretén representar en un mapa la ubicació de cada hotel. Actualment, la cartografia encara està en procés. 
+En aquest apartat es mostrarà la cartografia elaborada mitjançant el software QGIS, fent servir el plugin qgis2web i la llibreria Leaflet. Els hotels amb distàncies pròximes entre ells apareixen en forma de cluster per tal de millorar l'experiència de l'usuari. Si es fa click en la icona verda d'aquest cluster que agrupa els diferents hotels, aquests surten distribuïts de forma individual en cadascuna de les seves ubicacions. 
 
 ## Dificultats i millores
-De moment, per fer la cartografia corresponent, he utilitzat el plugin "GeoCoding" per tal de comprovar que les adreces dels establiments hotelers són correctes. No obstant, m'he trobat amb que no totes les adreces de tots els hoteles estan bé, la qual cosa m'ha dificultat i limitat la geocodificació mitjançant Web Service Geocode (MMQGIS) d'aquests establiments,  doncs algunes no apareixen al mapa i d'altres apareixen en un punt on no hi ha res al mapa. Encara he de treballar amb això per poder millorar-lo i que les ubicacions siguin les correctes. 
-Una altra limitació és que tot i haver utilitzat diferents cercadors per tal d'obtenir tots els hotels amb spa a la província de Tarragona, encara ho he d'afinar més, ja que probablement m'ha faltat trobar algun. Actualment tinc un llistat amb 20 hotels. 
+He tingut dificultats sobretot per ficar la posició deistjada d'alguns elements com el mapa o fotografies, i també per ficar alguns espais.
+La recerca dels hotels descrits ha estat senzilla, m'he recolzat de diferents cercadors web d'hotels populars utilitzant filtres d'instal·lacions spa, però possiblement m'he deixat algun.
